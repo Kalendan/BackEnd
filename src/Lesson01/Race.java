@@ -2,9 +2,9 @@ package Lesson01;
 
 
     public class Race {
-        public static volatile boolean raceOver = false;
+    
 
-        public static void main(String[] args) {
+            public static void main(String[] args) {
             Thread runner1 = new Thread(new Runner("Runner 1"));
             Thread runner2 = new Thread(new Runner("Runner 2"));
 
